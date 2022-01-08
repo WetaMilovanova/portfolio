@@ -411,6 +411,7 @@ body {
 }
 
 .tarif-item {
+    display: block;
     height: 36px;
     font-family: Inter;
     font-style: normal;
