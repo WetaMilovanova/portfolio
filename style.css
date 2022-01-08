@@ -130,7 +130,6 @@ body {
 }
 
 .text-title {
-    flex: ;
     width: 152px;
     height: 80px;
     background: #000000;
@@ -169,18 +168,16 @@ body {
 }
 
 .icon-skills {
-    flex: ;
+
 }
 
 .header-skills {
-    flex: ;
     width: 280px;
     height: 40px;
     text-align: center;
 }
 
 .description-skills {
-    flex: ;
     width: 280px;
     height: 72px;
     text-align: center;
@@ -197,7 +194,6 @@ body {
 
 
 .text-title-2 {
-    flex: ;
     width: 232px;
     height: 80px;
     background: #000000;
@@ -221,7 +217,6 @@ body {
 }
 
 .button-1 {
-    flex: ;
     order: 1;
     width: 220px;
     height: 55px;
@@ -239,7 +234,6 @@ body {
 }
 
 .button-2 {
-    flex: ;
     order: 2;
     width: 220px;
     height: 55px;
@@ -257,7 +251,6 @@ body {
 }
 
 .button-3 {
-    flex: ;
     order: 3;
     width: 220px;
     height: 55px;
@@ -275,7 +268,6 @@ body {
 }
 
 .button-4 {
-    flex: ;
     order: 4;
     width: 220px;
     height: 55px;
@@ -310,7 +302,6 @@ body {
 }
 
 .text-title-3 {
-    flex: ;
     width: 154px;
     height: 80px;
     background: #000000;
@@ -348,7 +339,6 @@ body {
 }
 
 .text-title-4 {
-    flex: ;
     width: 142px;
     height: 80px;
     background: #000000;
@@ -374,7 +364,7 @@ body {
 .cards {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 450px;
     height: 505px;
@@ -384,6 +374,11 @@ body {
 }
 
 .tarif-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
@@ -393,6 +388,11 @@ body {
     color: #FFFFFF;
 }
 .cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
@@ -402,6 +402,16 @@ body {
     color: #BDAE82;
 }
 .description-tarif {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 364px;
+    height: 180px;
+}
+
+.tarif-item {
+    height: 36px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -412,6 +422,10 @@ body {
 }
 
 .order-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 220px;
     height: 55px;
     background: #BDAE82;
@@ -427,13 +441,19 @@ body {
     color: #000000;
 }
 
-.contacts {}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:flex-end;
+    width: 1440px;
+    height: 700px;
+    background-image: url(./assets/img/contacts.jpg);
+}
 
 .text-title-5 {
-    flex: ;
     width: 450px;
     height: 80px;
-    background: #000000;
     border-radius: 0px;
     font-family: Merriweather;
     font-style: normal;
@@ -445,7 +465,12 @@ body {
 }
 
 .footer-container {
-    flex: ;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:baseline;
+    width: 1440px;
+    height: 150px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
