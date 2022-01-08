@@ -7,7 +7,15 @@ html {
     background:#000000 
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .container {
+    display: flex;
+    flex-direction: column;
     width: 1440px;
     margin: 0 auto;
     padding: 0 20px;
@@ -49,13 +57,119 @@ html {
 
 .hero {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     background-image: url('./assets/img/bg.png');
     background-position: center -90px;
     background-repeat: no-repeat;
+    width: 1440px;
+    height: 820px;
 }
 
-.skills {}
+.container-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 500px;
+    height: 330px;
+}
+.hero-title {
+    flex: none;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 120px;
+    color: #FFFFFF;
+}
 
+.hero-text {
+    flex: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    width: 220px;
+    height: 55px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    background-color: #BDAE82;
+}
+
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.section-title {
+    flex: ;
+    width: 112px;
+    height: 80px;
+    background: #000000;
+    border-radius: 0px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    color: #BDAE82;
+}
+
+.skills-item {
+    flex: ;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color:#FFFFFF
+}
+
+.skills-item-2 {
+    flex: ;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color:#FFFFFF
+}
+
+.skills-item-3 {
+    flex: ;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color:#FFFFFF
+}
+
+.skills-item-4 {
+    flex: ;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color:#FFFFFF
+}
 .portfolio {}
 
 .video {}
@@ -64,4 +178,12 @@ html {
 
 .contacts {}
 
-.footer-container {}
+.footer-container {
+    flex: ;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color:#FFFFFF
+}
