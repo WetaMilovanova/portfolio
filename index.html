@@ -14,17 +14,23 @@
 <body>
     <header class="header-container">
         <div class="container">
-            <img class="logo" src="./assets/img/Vector.png" alt="logo" width="50px" height="40px">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#Portfolio" class="nav-link">Portfolio</a></li>
-                    <li class="nav-item"><a href="#Video" class="nav-link">Video</a></li>
-                    <li class="nav-item"><a href="#Price" class="nav-link">Price</a></li>
-                    <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
-                </ul>
-            </nav>
-            /*en/ru
+            <div class="header-1"><img class="logo" src="./assets/img/Vector.png" alt="logo" width="50px" height="40px">
+
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#Portfolio" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="#Video" class="nav-link">Video</a></li>
+                        <li class="nav-item"><a href="#Price" class="nav-link">Price</a></li>
+                        <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+                    </ul>
+                </nav>
+    
+                <div class="language">
+                    <button class="en">en</button>
+                    <button class="ru">/ru</button>
+                </div>
+            
         </div>
     </header>
 
@@ -39,9 +45,10 @@
             </section>
 
 
-            <section class="skills">
+            <section class="skills" id="Skills">
+                
                 <div class="section-title">
-                    <h2 class="text-title">Skills</h2>
+                        <h2 class="text-title">Skills</h2>
                 </div>
 
                 <div class="items">
@@ -72,39 +79,43 @@
             </section>
 
 
-            <section class="portfolio">
+            <section class="portfolio" id="Portfolio">
                 <div class="section-title">
                     <h2 class="text-title-2">Portfolio</h2>
                 </div>
 
                 <div class="potfolio-buttons">
-                    <button class="button-4">Autumn</button>
-                    <button class="button-3">Summer</button>
-                    <button class="button-2">Spring</button>
-                    <button class="button-1">Winter</button>
+                    <button class="button-4">Winter</button>
+                    <button class="button-3">Spring</button>
+                    <button class="button-2">Summer</button>
+                    <button class="button-1">Autumn</button>
                 </div>
 
                 <div class="exemples-photo">
-                    <img src="./assets/img/portfolio-img1.jpg">
-                    <img src="./assets/img/portfolio-img2.jpg">
-                    <img src="./assets/img/portfolio-img3.jpg">
-                    <img src="./assets/img/portfolio-img4.jpg">
-                    <img src="./assets/img/portfolio-img5.jpg">
                     <img src="./assets/img/portfolio-img6.jpg">
+                    <img src="./assets/img/portfolio-img5.jpg">
+                    <img src="./assets/img/portfolio-img4.jpg">
+                    <img src="./assets/img/portfolio-img3.jpg">
+                    <img src="./assets/img/portfolio-img2.jpg">
+                    <img src="./assets/img/portfolio-img1.jpg">
                 </div>
             </section>
 
-            <section class="video">
+            <section class="video" id="Video">
                 <div class="section-title">
                     <h2 class="text-title-3">Video</h2>
                 </div>
 
                 <div class="video-player">
                     <img src="./assets/img/video-player.jpg" alt="video-player">
-                </div> 
+
+                    <div class="video-button">
+                        <img src="./assets/svg/Play_hover.svg" alt="video-button">
+                    </div>
+                </div>
             </section>
 
-            <section class="price">
+            <section class="price" id="Price">
                 <div class="section-title">
                     <h2 class="text-title-4">Price</h2>
                 </div>
@@ -116,7 +127,7 @@
                         </div>
 
                         <div class="cost">
-                            <span>500</span>
+                            <span>500 &#36;</span>
                         </div>
 
                         <div class="description-tarif">
@@ -135,7 +146,7 @@
                     <div class="cards">
                         <div class="tarif-name"><p>Premium</p></div>
 
-                        <div class="cost"><p>700</p></div>
+                        <div class="cost"><p>700 &#36;</p></div>
 
                         <div class="description-tarif">
                             <span class="tarif-item">One location</span>
@@ -153,7 +164,7 @@
                     <div class="cards">
                         <div class="tarif-name"><p>Gold</p></div>
 
-                        <div class="cost"><p>1000</p></div>
+                        <div class="cost"><p>1000 &#36;</p></div>
 
                         <div class="description-tarif">
                             <span class="tarif-item">One location</span>
@@ -172,7 +183,7 @@
                 
             </section>
 
-            <section class="contacts">
+            <section class="contacts" id="Contacts">
                 <div class="section-title">
                     <h2 class="text-title-5">Contact me</h2>
                 </div> 
